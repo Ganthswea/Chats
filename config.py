@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_ID = int(getenv("API_ID", 11320667)
-API_HASH = getenv("API_HASH", "3b245c2ab8eb94c9dd5b776c172fbea2)
+API_HASH = getenv("API_HASH", "3b245c2ab8eb94c9dd5b776c172fbea2")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = int(getenv("OWNER_ID", 5597156587)
 MONGO_URL = getenv("MONGO_URL", None)
